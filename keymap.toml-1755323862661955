@@ -1,4 +1,0 @@
-[manager.append_keymap]
-on  = ["enter"]
-run = "enter"
-
