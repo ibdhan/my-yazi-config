@@ -1,6 +1,0 @@
-[manager]
-keymap = [
-  # Enter behaves like 'l'
-  { on = ["enter"], run = "enter" },
-]
-
