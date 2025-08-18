@@ -103,6 +103,7 @@ keymap = [
 
 	# Find
 	{ on = "/", run = "find --smart",            desc = "Find next file" },
+	{ on = "i", run = "find --smart",            desc = "Find next file" },
 	{ on = "?", run = "find --previous --smart", desc = "Find previous file" },
 	{ on = "n", run = "find_arrow",              desc = "Next found" },
 	{ on = "N", run = "find_arrow --previous",   desc = "Previous found" },
@@ -156,8 +157,12 @@ keymap = [
 	{ on = "<F1>", run = "help", desc = "Open help" },
 ]
 
-[tasks]
+[[mgr.prepend_keymap]]
+on   = "<Enter>"
+run  = "plugin smart-enter"
+desc = "Enter the child directory, or open the file"
 
+[tasks]
 keymap = [
 	{ on = "<Esc>", run = "close", desc = "Close task manager" },
 	{ on = "<C-[>", run = "close", desc = "Close task manager" },

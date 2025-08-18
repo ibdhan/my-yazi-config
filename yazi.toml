@@ -49,7 +49,7 @@ play = [
 [open]
 rules = [
 	# Folder
-	# { name = "*/", use = [ "edit", "open", "reveal" ] },
+	{ name = "*/", use = [ "edit", "open", "reveal" ] },
 	# Specific extension
 	{ name = "*.md", use = "edit" },
   	{ name = "*.txt",  use = "edit" },

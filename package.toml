@@ -1,5 +1,7 @@
-[plugin]
-deps = []
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-enter"
+rev = "e95c7b3"
+hash = "c3f5c63722344045822f121efe2d2553"
 
 [[flavor.deps]]
 use = "sanjinso/monokai-vibrant"
